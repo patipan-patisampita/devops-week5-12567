@@ -1,0 +1,12 @@
+1.Docker build
+- docker build -t chuchart/html-app-boostrtap5:1.0.0 .
+- or docker builb -t chuchart/html-app-boostrtap5:latest
+2.Docker image
+- docker images
+- docker rmi <image id>
+3.Inspect Containers
+- docker ps -a
+4.Docker run
+- docker run --restart=always -d --name chuchart_html_app_boostrtap5 -p 3001:80 chuchart/html-app:1.0.0
+5.Open url
+- http://IP:3001
